@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.naochiennhom2.MemoryActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/p1"
+            style="@style/txtdiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Điểm: 10" />
+
+        <TextView
+            android:id="@+id/p2"
+            style="@style/txtdiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="150dp"
+            android:text="Time: 10" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/imgaes"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        />
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="400dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="3">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv11"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/brain_data" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv12"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/brain_data" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv13"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/brain_data" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="3">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv21"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/brain_data" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv22"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/brain_data" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv23"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/brain_data" />-->
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:weightSum="4"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/iv31"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:scaleType="centerInside"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/brain_data"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/iv32"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:scaleType="centerInside"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/brain_data"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/iv33"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:scaleType="centerInside"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/brain_data"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/iv34"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:scaleType="centerInside"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/brain_data"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>
